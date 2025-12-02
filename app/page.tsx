@@ -1,7 +1,7 @@
-import Image from "next/image";
+import { Hero } from "./componnents/hero";
 
 export default function Home() {
   return (
-    <p>working....</p>
+    <Hero/>
   );
 }
