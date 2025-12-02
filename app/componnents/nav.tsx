@@ -51,7 +51,7 @@ export function Nav () {
             </div>
 
             {/* hamburger menu  */}
-            <div className="md:hidden absolute bg-amber-300 w-full h-[100vh]  z-10 py-20">
+            <div className="hidden absolute bg-amber-300 w-full h-[100vh]  z-10 py-20">
                 {/* logo  */}
                 <div>
                     <p>x</p>
