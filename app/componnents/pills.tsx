@@ -7,7 +7,7 @@ type PillsProp={
 
 export function Pills({children, className}:PillsProp) {
   return (
-    <div className={`${className} flex gap-5`}>
+    <div className={`${className} flex gap-5 py-3 px-6 rounded-full`}>
         {children}
     </div>
   );

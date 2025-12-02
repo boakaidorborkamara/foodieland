@@ -1,7 +1,7 @@
 import React from "react"
 
 type ButtonProp={
-    children:React.ReactNode,
+    children?:React.ReactNode,
     className?:string
 }
 
